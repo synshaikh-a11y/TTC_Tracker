@@ -40,7 +40,7 @@ public class TTCService {
         
         List<Stop> stops = new ArrayList<>();
         
-        // Sample stops along Queen Street (route 501)
+        // Testing sample route:501
         if (routeTag.equals("501")) {
             stops.add(new Stop("1", "15419", "Queen St East at Neville Park Blvd", 43.6641, -79.2988));
             stops.add(new Stop("2", "15420", "Queen St East at Woodbine Ave", 43.6641, -79.3089));

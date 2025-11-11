@@ -1,0 +1,23 @@
+# Compiled files
+target/
+*.class
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Application properties with sensitive data
+application-prod.properties

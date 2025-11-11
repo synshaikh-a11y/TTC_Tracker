@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TTC Tracker</title>
+</head>
+<body>
+    <h1>TTC Transit Tracker</h1>
+    <p>If you see this, static files are working!</p>
+    
+    <button onclick="testAPI()">Test API</button>
+    <div id="result"></div>
+    
+    <script>
+        function testAPI() {
+            fetch('/api/test')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('result').innerHTML = data;
+                });
+        }
+    </script>
+</body>
+</html>
